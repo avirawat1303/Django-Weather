@@ -9,8 +9,7 @@ def index(request):
     Render the weather index page.
     """
 
-    # ✅ Paste your key here (replace with your actual key, but never share publicly)
-    API_KEY = "ddb91525188df82045db6ae0f432cb25"
+    API_KEY = ""
 
     new_city = None
     err_msg = ''
